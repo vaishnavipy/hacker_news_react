@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {BrowserRouter as Router} from "react-router-dom"
+ import {FavoriteContextProvider} from "./favoriteContext"
 
 
 ReactDOM.render(
 
+<Router>
+<FavoriteContextProvider>
     <App />
+</FavoriteContextProvider>
+</Router>
+
  ,
   document.getElementById('root')
 );

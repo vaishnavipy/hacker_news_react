@@ -1,0 +1,69 @@
+.app-container{
+
+
+
+ background-color: #F6F6EF;
+margin: 10px;
+height: auto;
+
+}
+.header{
+padding: 10px;
+  margin: 0;
+  background-color: #FE6601;
+}
+.menu{
+  font-size: 1.2rem;
+  color:white;
+  display: inline-block;  
+  padding: 0px 5px;
+  cursor: pointer;
+  font-weight: 700;
+  
+}
+.header h2{
+padding: 0;
+margin: 0;
+display: inline-block; 
+padding-right: 1em ; 
+}
+.active{
+ margin:0;
+  border-bottom: 2px solid white;
+  
+}
+.title{
+  padding: 0.2em;
+margin: 0;
+}
+.details{
+  padding: 0.1em 1em;
+  margin: 0;
+  
+}
+hr{
+  border:0.5px solid white;
+}
+.website{
+  color:#979797;
+  font-size: 0.8rem;
+}
+.comments{
+  text-decoration: underline;
+cursor: pointer;
+}
+.fav-icon{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.comment-container{
+  padding:5px;
+  height:auto;
+}
+.comment-author{
+  color:#979797;
+  font-size: 0.8rem;
+}
