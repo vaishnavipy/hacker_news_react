@@ -13,4 +13,5 @@ Tried to replicate almost all the functionalities of the original Hacker News Ap
 - Calculated latest news based on time fetched from the API
 - UseContext() - to share favorited news and remove favorites.
 - Infinite Scroll to provide infinite scrolling all through the app
+- Fetched and mapped the comments from every story.
 
