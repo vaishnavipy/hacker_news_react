@@ -91,20 +91,20 @@ function App() {
 
       <div className="header"  onClick={handleClick}>
         <h2 className="logo">HackerNews</h2>
-      <Link to="/">  <div className="menu active" id="latest">New</div></Link>
-      <Link to="/popular"><div className="menu" id="popular">Popular</div></Link>
-      <Link to="/ask"><div className="menu" id="ask">Ask</div></Link>
-      <Link to="/show"><div className="menu" id="show">Show</div></Link>
-      <Link to="/favorites"><div className="menu" id="favorites">Favorites</div></Link>
+      <Link to="/hacker_news_react/">  <div className="menu active" id="latest">New</div></Link>
+      <Link to="/hacker_news_react/popular"><div className="menu" id="popular">Popular</div></Link>
+      <Link to="/hacker_news_react/ask"><div className="menu" id="ask">Ask</div></Link>
+      <Link to="/hacker_news_react/show"><div className="menu" id="show">Show</div></Link>
+      <Link to="/hacker_news_react/favorites"><div className="menu" id="favorites">Favorites</div></Link>
       </div>
 
       <Switch>
-        <Route exact path="/">  <Content news={news} loadMore={loadMore} menu="latest"/> </Route>
-        <Route path="/popular"><Content news={popular} loadMore={loadMore} menu="popular"/></Route>
-        <Route path="/ask"><Content news={ask} loadMore={loadMore} menu="ask"/></Route>
-        <Route path="/show"><Content news={show} loadMore={loadMore} menu="show"/></Route>
-        <Route path="/favorites"><Content news={storyArr} loadMore={loadMore} menu=""/></Route>
-        <Route path="/item/id=:itemID"><CommentSection /></Route>
+        <Route exact path="/hacker_news_react/">  <Content news={news} loadMore={loadMore} menu="latest"/> </Route>
+        <Route path="/hacker_news_react/popular"><Content news={popular} loadMore={loadMore} menu="popular"/></Route>
+        <Route path="/hacker_news_react/ask"><Content news={ask} loadMore={loadMore} menu="ask"/></Route>
+        <Route path="/hacker_news_react/show"><Content news={show} loadMore={loadMore} menu="show"/></Route>
+        <Route path="/hacker_news_react/favorites"><Content news={storyArr} loadMore={loadMore} menu=""/></Route>
+        <Route path="/hacker_news_react/item/id=:itemID"><CommentSection /></Route>
 
       </Switch>
       
